@@ -128,7 +128,7 @@ resource "aws_eip" "eip" {
 
 # Create AWS Instance
 resource "aws_instance" "banking_project" {
-  ami                 = "ami-0a0e5d9c7acc336f1"
+  ami                 = "ami-0c2af51e265bd5e0e"
   instance_type      = "t2.medium"
   key_name           = "SA-projectkeypair"
 
